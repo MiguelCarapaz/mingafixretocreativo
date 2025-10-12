@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Reto Creativo – Visualización Inteligente de Datos Urbanos</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-grid">
+      <div class="brand-row">
+        <img src="LOGO.png" alt="MINGAFIX logo" class="logo" />
+        <div>
+          <h1 class="brand">MINGAFIX</h1>
+          <p class="tag">Reto Creativo – Visualización Inteligente de Datos Urbanos</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="container">
+      <div class="video-wrap">
+        <video id="heroVideo" controls playsinline preload="metadata">
+          <source src="videoprincipal.mp4" type="video/mp4" />
+          Tu navegador no soporta video.
+        </video>
+      </div>
+ <div class="actions" style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap; justify-content: center;">
+  <a class="btn" href="https://www.figma.com/make/TGwP6QdWNMCSgz7r3mIv4R/MINGAFIX?fullscreen=1" target="_blank" rel="noopener" style="min-width: 200px; text-align: center;">Demo Figma</a>
+</div>
+      </div>
+    </section>
+
+    <!-- CREADOR -->
+    <section id="creador" class="container card reveal">
+      <h2>Creado por</h2>
+      <div class="creator">
+        <div class="creator-info">
+          <h3>Miguel Carapaz</h3>
+          <div class="links">
+            <a href="https://www.linkedin.com/in/miguel-carapaz" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://portfolio-tawny-zeta-45.vercel.app/#portfolio" target="_blank" rel="noopener">Portafolio</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <p>&copy; <span id="year"></span> MINGAFIX</p>
+      </div>
+    </div>
+  </footer>
+  <script>
+    // footer year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
