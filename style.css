@@ -37,3 +37,23 @@ html,body{height:100%;font-family:'Inter',system-ui,-apple-system,'Segoe UI',Rob
 /* footer */
 .site-footer{background:linear-gradient(180deg,#06121b,#071428);color:#dbeafe;padding:20px;margin-top:22px}
 .footer-grid{display:flex;justify-content:space-between;align-items:center;gap:12px}
+
+.demo-image-wrapper {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.demo-image {
+  width: 200px;
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.demo-caption {
+  margin-top: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--primary);
+}
